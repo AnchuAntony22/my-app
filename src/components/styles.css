@@ -1,0 +1,87 @@
+.header {
+    padding: 20px;
+    background-color: #d32f2f;
+    color: white;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #202020;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: aliceblue;
+    flex-grow: 1;
+
+}
+
+.navLinks li {
+    display: inline;
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.navLinks a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagePlaceholder {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px auto;
+    font-size: 14px;
+    color: #666;
+}
+
+.button {
+    background-color: #007bffa7;
+    color: rgb(241, 245, 247);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.adList {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.button:hover {
+    background-color: #0056b3;
+}
