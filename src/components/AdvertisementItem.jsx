@@ -7,7 +7,7 @@ const AdvertisementItem = ({ ad }) => {
       <div className='content'>
         <h3>{ad.title}</h3>
         <p>{ad.description}</p>
-        <p>Contact: ***</p>
+        <p>Contact: ***</p>   
         <button className='button'>Details</button>
       </div>
     </div>
